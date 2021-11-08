@@ -16,6 +16,7 @@
 		D1934CFF27397EE100DE179D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1934CFD27397EE100DE179D /* LaunchScreen.storyboard */; };
 		D1934D0927397EF700DE179D /* TipCalculator.docx in Resources */ = {isa = PBXBuildFile; fileRef = D1934D0727397EF700DE179D /* TipCalculator.docx */; };
 		D1934D0A27397EF700DE179D /* TipCalculator FAQ.docx in Resources */ = {isa = PBXBuildFile; fileRef = D1934D0827397EF700DE179D /* TipCalculator FAQ.docx */; };
+		D1D130AC2739CE50007217A6 /* Extra.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D130AB2739CE50007217A6 /* Extra.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		D1934D0027397EE100DE179D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1934D0727397EF700DE179D /* TipCalculator.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = TipCalculator.docx; sourceTree = "<group>"; };
 		D1934D0827397EF700DE179D /* TipCalculator FAQ.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TipCalculator FAQ.docx"; sourceTree = "<group>"; };
+		D1D130AB2739CE50007217A6 /* Extra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extra.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				D1934CEF27397EE000DE179D /* AppDelegate.swift */,
 				D1934CF127397EE000DE179D /* SceneDelegate.swift */,
 				D1934CF327397EE000DE179D /* ViewController.swift */,
+				D1D130AB2739CE50007217A6 /* Extra.swift */,
 				D1934CF527397EE000DE179D /* Main.storyboard */,
 				D1934D0627397EF700DE179D /* Helpful Tips */,
 				D1934CFB27397EE100DE179D /* Assets.xcassets */,
@@ -159,6 +162,7 @@
 			files = (
 				D1934CF427397EE000DE179D /* ViewController.swift in Sources */,
 				D1934CFA27397EE000DE179D /* Tip_Calculator.xcdatamodeld in Sources */,
+				D1D130AC2739CE50007217A6 /* Extra.swift in Sources */,
 				D1934CF027397EE000DE179D /* AppDelegate.swift in Sources */,
 				D1934CF227397EE000DE179D /* SceneDelegate.swift in Sources */,
 			);

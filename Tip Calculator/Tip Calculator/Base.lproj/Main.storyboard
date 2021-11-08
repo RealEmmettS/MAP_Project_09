@@ -51,7 +51,11 @@
                                                 </constraints>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="decimalPad" returnKeyType="done" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="doneAccessory" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
                                                 <connections>
+                                                    <action selector="beginEditingBill:" destination="BYZ-38-t0r" eventType="editingDidBegin" id="B1i-jc-15B"/>
                                                     <action selector="doneEditingBill:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="0AR-L9-fwT"/>
                                                 </connections>
                                             </textField>
@@ -150,6 +154,9 @@
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Reset" cornerStyle="capsule"/>
+                                <connections>
+                                    <action selector="resetPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PrH-YE-Hv7"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
